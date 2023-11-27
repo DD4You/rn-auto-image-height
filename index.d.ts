@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ImageProps } from 'react-native';
+import { ImageProps, StyleProp } from 'react-native';
 
 interface TSource {
     uri: string;
@@ -8,6 +8,7 @@ interface TSource {
 export interface AutoHeightImageProps extends ImageProps {
     source: number | TSource;
     width: number;
+    style?: StyleProp<any>;
   }
 
 declare class AutoHeightImage extends React.Component<
