@@ -45,6 +45,7 @@ export default class Demo extends Component {
 | -------- | ---------------- | ---------- | ------- | ---------------------------------------------------------- |
 | `width`  | number           | ✔          | N/A     | image width to fit                                         |
 | `source` | number or object | ✔          | N/A     | local (i.e. require/import) or remote image ({uri: '...'}) |
+| `style`  | object           | x          | N/A     |                                                            |
 
 ## Change Log
 
